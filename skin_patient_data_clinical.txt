@@ -1,0 +1,36 @@
+#Sample Identifier	Patient Identifier	Other Sample ID	Diagnosis Age	Person Gender	Smoker	Immune Status	Disease Free Status	Second Primary Cancer	Merkel Cell	Overall Survival Status	Radiation Therapy	Progress Free Survival (Months)	Overall Survival (Months)	Cancer Type	Cancer Type Detailed
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Legacy DMP sample identifier (DMPnnnn)	Age at which a condition or disease was first diagnosed.	Patient gender.	Indicates if person is a smoker.	Immune Status	Disease free status since initial treatment.	Refers to a new primary cancer in a person with a history of cancer	Merkel cells are oval receptor cells found in the skin of vertebrates that have synaptic contacts with somatosensory afferents.	Overall patient survival status.	Radiation Therapy.	Progress Free Survival (Months)	Overall survival in months since initial diagonosis.	Disease type	Cancer Type Detailed
+#STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING
+#SAMPLE	PATIENT	SAMPLE	PATIENT	PATIENT	PATIENT	SAMPLE	PATIENT	SAMPLE	SAMPLE	PATIENT	PATIENT	PATIENT	PATIENT	SAMPLE	SAMPLE
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	OTHER_SAMPLE_ID	AGE	GENDER	SMOKER	IMMUNE_STATUS	DFS_STATUS	SECOND_PRIMARY_CANCER	MERKEL_CELL	OS_STATUS	RADIATION_THERAPY	PFS_MONTHS	OS_MONTHS	CANCER_TYPE	CANCER_TYPE_DETAILED
+S00-28455-TP-NT	S00-28455	1	73	Female	No	0	Recurred/Progressed	No	Yes	LIVING	No	1	32.5	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S00-35182-TP-NT	S00-35182	2	84	Male	Yes	0	DiseaseFree	Yes	No	DECEASED	No	59.9	124.9	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S01-27743-TP-NT	S01-27743	3	72	Female	No	0	Recurred/Progressed	No	No	LIVING	No	78	155.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S02-14875	S02-14785	4	48	Male	No	0	DiseaseFree	Yes	No	LIVING	No	103	102.9	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S02-15015-TP-S00-35182-NT	S02-15015	5	75	Male	Yes	7	Recurred/Progressed	No	No	LIVING	Yes	4	11.6	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S03-26121-TP-NT	S03-26121	8	91	Male	Yes	0	DiseaseFree	No	No	DECEASED	No	9.4	98.2	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S03-45671-TP-S05-31806-NT	S03-45671	17	88	Male	Yes	0	DiseaseFree	No	No	LIVING	No	54.8	54.8	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S04-22711-TP-S05-46290-NT	S04-22711	18	74	Male	Yes	0	DiseaseFree	Yes	No	LIVING	No	35.7	35.7	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S04-32572-TP-S06-19548-NT	S04-32572	19	78	Male	Yes	0	DiseaseFree	No	No	LIVING	No	45.4	53.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S04-45633-TP-S07-16280-NT	S04-45633	20	74	Male	No	0	Recurred/Progressed	No	No	DECEASED	No	4	11.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S04-6933-TP-S08-41239-NT	S04-6933	21	56	Male	No	0	Recurred/Progressed	No	No	DECEASED	Yes	6	40	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S05-31806-TP-NT	S05-31806	23	84	Female	Yes	0	DiseaseFree	Yes	No	LIVING	No	98.9	109.1	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S05-45028-TP-S08-7608-NT	S05-45028	24	76	Female	No	0	Recurred/Progressed	Yes	No	DECEASED	No	4	7.1	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S05-46290-TP-NT	S05-46290	32	77	Male	Yes	0	Recurred/Progressed	Yes	No	LIVING	No	12	107.3	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S06-19548-TP-NT	S06-19548	33	67	Male	Yes	5	Recurred/Progressed	Yes	No	DECEASED	Yes	23	41.1	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S07-16280-TP-NT	S07-16280	34	75	Female	No	-1	DiseaseFree	Yes	No	DECEASED	Yes	7.6	7.6	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S08-41239-TP-NT	S08-41239	36	69	Female	No	0	DiseaseFree	Yes	No	LIVING	No	64.4	73.2	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S08-7608-TP-NT	S08-7608	37	72	Female	No	0	Recurred/Progressed	No	No	LIVING	No	78	155.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S09-2518-TP-S12-11594-NT	S09-2518	38	76	Female	No	2	Recurred/Progressed	Yes	No	LIVING	No	51	68.6	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S09-31237-TP-NT	S09-31237	39	72	Female	No	0	DiseaseFree	No	No	LIVING	No	12.3	12.3	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S10-44607-TP-S12-17796-NT	S10-44607	47	67	Male	Yes	0	DiseaseFree	No	No	LIVING	No	39.9	39.9	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S10-24679-TP-NT	S10-24679	48	70	Male	No	0	DiseaseFree	No	No	LIVING	No	41	51.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S10-47754-TP-S12-22512-NT	S10-47754	50	66	Male	Yes	0	DiseaseFree	Yes	No	LIVING	No	17.9	45.4	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S12-11594-TP-NT	S12-11594	53	92	Male	No	0	DiseaseFree	No	No	LIVING	No	20.4	32.2	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S12-17796-TP-NT	S12-17796	54	77	Male	No	0	DiseaseFree	No	No	LIVING	Yes	20.8	30.8	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S12-22512-TP-NT	S12-22512	62	72	Male	No	0	DiseaseFree	No	No	LIVING	No	22.3	31.3	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S12-23181-TP-NT	S12-23181	63	64	Male	Yes	0	DiseaseFree	No	No	LIVING	No	18.8	29.5	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S03-09436-TP-S03-26121-NT	S03-09436	64	62	Female	No	0	DiseaseFree	No	No	LIVING	No	129.7	140.1	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+S06-38853-TP-S09-31237-NT	S06-38853	65	83	Male	No	0	Recurred/Progressed	Yes	No	DECEASED	Yes	11	27.7	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma
+
